@@ -1,0 +1,103 @@
+:root{
+  --gray-color: gray;
+  --blue-color: #3851a4;
+}
+
+/* Reset values */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main--login{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.main--login .main--title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main--login .main--title > h1{
+  font-size: 3.4rem;
+}
+
+/* Estilos form */
+
+.login--form{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login--form .form--input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid var(--gray-color);
+}
+
+.login--form .form--button{
+  display: block;
+  padding: 10px;
+  width: 80px;
+  margin: 0 auto;
+}
+
+.divisor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divisor div{
+  width: 45%;
+  height: 1px;
+  background-color: var(--gray-color);
+}
+
+/* Estilos links */
+
+.login--alternative{
+
+}
+.alternative--link{
+  color: var(--blue-color);
+  display: block;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.alternative--link__bold{
+  font-weight: 700;
+}
+
+.alternative--link__small{
+  font-size: 1.4rem;
+}
+
+.alternative--paragraph{
+  margin-top: 60px;
+  text-align: center;
+}
